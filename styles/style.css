@@ -88,12 +88,73 @@ iframe {
 /*------------------------------Image Slider-------------------------------*/
 
 
-.slideShow img {
-	display: block;
-	height: auto;
-	width: 100%;
+.slideShow {
+	height: 300px;
 }
 
+/*--------------------------Slide 1---------------------------*/
+#image1 {
+	background-image: url(../images/Slide1/1.jpg);
+	background-size: cover;
+	width: 30%;
+	min-height: 300px;
+}
+
+#image2 {
+	background-image:  url(../images/Slide1/2.jpg);
+	background-size: cover;
+	width: 30%;
+	min-height: 300px;
+}
+
+#image3 {
+	background-image:  url(../images/Slide1/3.jpg);
+	background-size: cover;
+	width: 30%;
+	min-height: 300px;
+}
+
+#image4 {
+	background-image:  url(../images/Slide1/4.jpg);
+	background-size: cover;
+	width: 30%;
+	min-height: 300px;
+
+}
+
+/*------------------------------Slide 2----------------------------*/
+
+#image5 {
+	background-image:  url(../images/Slide2/5.jpg);
+	background-size: cover;
+	width: 30%;
+	min-height: 300px;
+
+}
+
+#image6 {
+	background-image:  url(../images/Slide2/6.jpg);
+	background-size: cover;
+	width: 30%;
+	min-height: 300px;
+
+}
+
+#image7 {
+	background-image:  url(../images/Slide2/7.jpg);
+	background-size: cover;
+	width: 30%;
+	min-height: 300px;
+
+}
+
+#image8 {
+	background-image:  url(../images/Slide2/8.jpg);
+	background-size: cover;
+	width: 30%;
+	min-height: 300px;
+
+}
 
 /*--------------------------------Footer Styling-------------------------------*/
 footer {
@@ -127,4 +188,17 @@ footer a {
 
 .col {
 	flex: 1;
+}
+
+
+
+
+
+/*-------------------------------------Media Queries For Responsive design-----------------------*/
+
+@media screen and (max-width: 480px) {
+	.row {
+	display: flex;
+	flex-direction: column;
+	}	
 }
