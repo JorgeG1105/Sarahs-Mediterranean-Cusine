@@ -101,9 +101,8 @@ iframe {
 /*--------------------------Slide 1---------------------------*/
 #image1 {
 	background-image: url(../images/Slide1/1.jpg);
-	background-size: cover;
+	background-size: cover; 
 	background-position: center center;
-	width: 30%;
 	min-height: 300px;
 }
 
@@ -111,7 +110,6 @@ iframe {
 	background-image:  url(../images/Slide1/2.jpg);
 	background-size: cover;
 	background-position: center center;
-	width: 30%;
 	min-height: 300px;
 }
 
@@ -119,7 +117,6 @@ iframe {
 	background-image:  url(../images/Slide1/3.jpg);
 	background-size: cover;
 	background-position: center center;
-	width: 30%;
 	min-height: 300px;
 }
 
@@ -127,7 +124,6 @@ iframe {
 	background-image:  url(../images/Slide1/4.jpg);
 	background-size: cover;
 	background-position: center center;
-	width: 30%;
 	min-height: 300px;
 
 }
@@ -138,7 +134,6 @@ iframe {
 	background-image:  url(../images/Slide2/5.jpg);
 	background-size: cover;
 	background-position: center center;
-	width: 30%;
 	min-height: 300px;
 
 }
@@ -147,7 +142,6 @@ iframe {
 	background-image:  url(../images/Slide2/6.jpg);
 	background-size: cover;
 	background-position: center center;
-	width: 30%;
 	min-height: 300px;
 
 }
@@ -156,7 +150,6 @@ iframe {
 	background-image:  url(../images/Slide2/7.jpg);
 	background-size: cover;
 	background-position: center center;
-	width: 30%;
 	min-height: 300px;
 
 }
@@ -165,7 +158,6 @@ iframe {
 	background-image:  url(../images/Slide2/8.jpg);
 	background-size: cover;
 	background-position: center center;
-	width: 30%;
 	min-height: 300px;
 
 }
