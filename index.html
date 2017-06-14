@@ -2,13 +2,18 @@
 <html>
 <head>
 	<title>Sarah's</title>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
 	<!--Google Fonts-->
 	<link href="https://fonts.googleapis.com/css?family=Kaushan+Script|Open+Sans:400i" rel="stylesheet">
+	<!--Slick CSS-->
+	<link rel="stylesheet" type="text/css" href="slick/slick.css"/>
+	<link rel="stylesheet" type="text/css" href="slick/slick-theme.css"/>
 	<!--Custom Styles-->
 	<link rel="stylesheet" type="text/css" href="styles/style.css">
 </head>
 <body>
-	<nav>
+	<nav class="stroke">
 		<ul>
 			<li><a href ="#">Sarah's</a></li>
 			<li><a href ="#">Our Promise</a></li>
@@ -28,8 +33,13 @@
 			<div id="ourPromise" class="col">
 				<h1>"From the moment you step through our doors you feel as if you are in an authentic, warm Mediterranean atmosphere"</h1>
 				<p>The goal at Sarah's is to represent the core values of the Mediterranean diet. In effort to source the premier ingredients which exemplify this way of life, we have spared no expense in searching for these products and ingredients.</p>
-				<img src="images/MedSpaghetti.jpg" width="600px" height="600px">
 			</div>
+		</div>
+		<div class="slideShow">
+			<div><img src="images/Slide1/1.jpg"></div>
+			<div><img src="images/Slide1/2.jpg"></div>
+			<div><img src="images/Slide1/3.jpg"></div>
+			<div><img src="images/Slide1/4.jpg"></div>
 		</div>
 		<div id="menu">
 			<div class="row">
@@ -106,8 +116,25 @@
 					<p>Turkish Coffee (2)</p>
 				</div>
 			</div>
-			<div id="imgSlide2">
-				<img src="images/MedWrap.jpg" width="600px" height="600px">
+			<div class="slideShow">
+				<div><img src="images/Slide2/5.jpg"></div>
+				<div><img src="images/Slide2/6.jpg"></div>
+				<div><img src="images/Slide2/7.jpg"></div>
+				<div><img src="images/Slide2/8.jpg"></div>
+			</div>
+			<div class="row">
+				<div id="catering" class="col">
+					<h1>Sarah's offers Austin with a unique opportunity to experience the pleasures of  authentic Mediterranean cuisine at a reasonable price!</h1>
+					<p>Our catering services come highly recommended. Please ask for references.</p>
+					<p>We cater for all occasions including:</p>
+					<ul>
+						<li>Business Meetings</li>
+						<li>Business Lunches</li>
+						<li>Weddings</li>
+						<li>Small or Large group events</li>
+						<li>Picnics</li>
+					</ul>
+				</div>
 			</div>
 			<div class="row">
 				<div id="location" class="col">
@@ -124,12 +151,17 @@
 						<a id="socialMediaIcon" href="http://www.twitter.com"><img src="images/SocialMedia/twitter.png"></a>
 						<a id="socialMediaIcon" href="http://www.yelp.com"><img src="images/SocialMedia/yelp.png"></a>
 						<p>Sarah's Mediterranean Grill &amp; Market all rights reserved &copy; 2011</p>
-						<p>Designed and Developed by <a href="http://www.JorgeGoris.com" target="_blank">Jorge Goris</a></p>
+						<p>Designed and Developed by <a href="http://www.JorgeGoris.com" target="_blank" id="developer">Jorge Goris</a></p>
 					</div>
 				</div>
 			</footer>
 		</div>
 	</div>
-	<script src="script/script.js"></script> </body>
+<!--Slick Carousel-->
+<script type="text/javascript" src="http://code.jquery.com/jquery-1.11.0.min.js"></script>
+<script type="text/javascript" src="http://code.jquery.com/jquery-migrate-1.2.1.min.js"></script>
+<script type="text/javascript" src="slick/slick.min.js"></script>
+<!--Custom Js-->
+<script src="script/script.js"></script>
 </body>
 </html>
