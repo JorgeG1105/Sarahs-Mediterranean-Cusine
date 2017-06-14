@@ -49,6 +49,10 @@ nav a:hover {
 }
 
 /*----------------------------Container styles----------------------------------*/
+#container h1, p {
+	padding: 10px;
+}
+
 #mainImg {
 	background:
 		linear-gradient(
@@ -86,20 +90,6 @@ iframe {
 }
 
 
-.map-responsive{
-    overflow:hidden;
-    padding-bottom:56.25%;
-    position:relative;
-    height:0;
-}
-
-.map-responsive iframe{
-    left:0;
-    top:0;
-    height:100%;
-    width:100%;
-    position:absolute;
-}
 
 /*------------------------------Image Slider-------------------------------*/
 
@@ -213,8 +203,25 @@ footer a {
 /*-------------------------------------Media Queries For Responsive design-----------------------*/
 
 @media screen and (max-width: 480px) {
+	
 	.row {
 	display: flex;
 	flex-direction: column;
+	
 	}	
+
+	.map-responsive {
+    overflow:hidden;
+    padding-bottom:56.25%;
+    position:relative;
+    height:0;
+	}
+
+	.map-responsive iframe {
+    left:0;
+    top:0;
+    height:100%;
+    width:100%;
+    position:absolute;
+	}
 }
